@@ -8,7 +8,7 @@ import {
   Text
 } from '@tremor/react';
 
-interface User {
+export interface User {
   id: number;
   name: string;
   username: string;
